@@ -70,6 +70,7 @@ a {
     font-size: 18px;
     display: flex;
     padding: 6px 16px;
+    border-radius: 5px;
 }
 
 #delBtn{

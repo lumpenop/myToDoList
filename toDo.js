@@ -1,4 +1,8 @@
-
+function keyCheck(event){
+    if(event.keyCode == 13){
+        addToDo();
+    }
+}
 
 function delToDo(a){
 
@@ -14,7 +18,7 @@ function addToDo(){
    
     newText = document.querySelector(".toDoInput");
     if (newText.value == ''){
-        alert('toDoList를 입력해주세요')
+        
 
     } else {
         newList = document.createElement("li");
@@ -38,3 +42,5 @@ function addToDo(){
         
     }      
 }
+
+
