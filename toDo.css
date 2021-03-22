@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header{
+    width: 100%;
+    background: #160D61;
+    color: aliceblue;
+    padding: 10px 0 20px 0;
+}
+
+.container{
+    width: 1200px;
+    margin: 20px auto;
+    text-align: center;
+    
+}
+
+.addToDo{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.toDoBox{
+    margin: 60px;
+
+}
+
+.toDoTitle{
+    margin-top: 30px;
+}
+
+.toDoInput{
+    width: 300px;
+    height: 30px;
+    border-radius: 4px;
+    border: none;
+}
+
+.toDoBtn{
+    height: 30px;
+    width: 25px;
+    border-radius: 4px;
+    border: none;
+}
+
+.toDoList{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.toDoList > li{
+    width: 50%;
+    margin: 0 auto;
+    background: #ececec;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    display: flex;
+    padding: 6px 16px;
+}
+
+#delBtn{
+    margin-left: auto;
+    height: 30px;
+    width: 25px;
+    border-radius: 4px;
+    border: 1px solid darkgray;
+    display: block;
+}
+
+.toDoText{
+    display: block;
+    line-height: 28px;
+}
+
+
