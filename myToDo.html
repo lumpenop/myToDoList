@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>todo</title>
+        <link rel="stylesheet" href="./myToDo.css">
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="header">
+                <div class="container">
+                    <h1 class="title">just do it</h1>
+                    <div class="add_todo todo">
+                        <input class="input_todo" type="text" onkeypress="pressEnter(event);">
+                        <input class="input_btn" type="button" onclick="addToDo();" value="+">
+                    </div>
+                </div>
+            </div>
+            <div class="content container">
+                <ul class="todo_list todo">
+                    <li>li</li>
+                </ul>
+            </div>
+        </div>
+
+        
+
+        <script src="./myToDo.js"></script>
+    </body>
+</html>
